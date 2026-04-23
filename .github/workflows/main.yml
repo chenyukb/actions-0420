@@ -1,7 +1,7 @@
 name: Manual Build
 on:
   pull_request:
-    branches: ["main", "aaa"]
+    branches: ["main", "bbb"]
   workflow_dispatch:
     inputs:
       build_id:
