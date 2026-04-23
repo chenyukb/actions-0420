@@ -1,6 +1,6 @@
 name: Manual Build
 on:
-  puspush: :
+  push:
     branches: ["main", "aaa"]
   workflow_dispatch:
 
