@@ -2,7 +2,9 @@ name: Manual Build
 on:
   pull_request:
     branches: ["main", "aaa"]
-  workflow_dispatch
+  workflow_dispatch:
+
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
