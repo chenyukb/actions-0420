@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy build to target
-        run: echo "Deploying build: to target:"
+        run: echo "asas"
