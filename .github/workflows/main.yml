@@ -2,26 +2,7 @@ name: Manual Build
 on:
   pull_request:
     branches: ["main"]
-  workflow_dispatch:
-    inputs:
-      build_id:
-        required: true
-        type: number
-      deploy_target:
-        required: true
-        type: string
-      perform_deploy:
-        required: true
-        type: boolean
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
-        type: choice
-        options:
-        - info
-        - warning
-        - debug
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
