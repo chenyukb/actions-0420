@@ -2,7 +2,7 @@ name: Manual Build
 on:
   push:
     branches: ["main", "aaa"]
-  workflow_dispatch:
+  workflow_dispatch
 
 
 
