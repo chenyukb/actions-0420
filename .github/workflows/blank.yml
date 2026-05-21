@@ -49,7 +49,7 @@ jobs:
       - run: |
           echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
       - run: |
-          echo start
+          echo start && sleep 100
           echo $GITHUB_STEP_SUMMARY
           cat $GITHUB_STEP_SUMMARY
           echo end
