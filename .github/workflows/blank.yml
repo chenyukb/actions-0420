@@ -45,4 +45,4 @@ jobs:
           pwd
           echo Add other actions to build,
           echo test, and deploy your project.
-      - run: echo '${{github.event}}'
+      - run: echo '${{github.event.action}}'
