@@ -51,4 +51,6 @@ jobs:
       - run: |
           echo start
           echo $GITHUB_STEP_SUMMARY
+          cat $GITHUB_STEP_SUMMARY
+          echo end
           echo "### Hello world2! :rocket:" >> $GITHUB_STEP_SUMMARY
