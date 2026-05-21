@@ -49,4 +49,6 @@ jobs:
       - run: |
           echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
       - run: |
+          echo start
+          echo $GITHUB_STEP_SUMMARY
           echo "### Hello world2! :rocket:" >> $GITHUB_STEP_SUMMARY
