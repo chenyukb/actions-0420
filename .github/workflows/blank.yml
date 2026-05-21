@@ -46,3 +46,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - run: echo '${{toJson(github)}}'
+      - run: |
+          echo "::set-output name=summary::### 测试失败！\n详细错误信息：\n\`\`\`$TEST_OUTPUT\`\`\`" >> $GITHUB_STEP_SUMMARY
