@@ -48,3 +48,5 @@ jobs:
       - run: echo '${{toJson(github)}}'
       - run: |
           echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+      - run: |
+          echo "### Hello world2! :rocket:" >> $GITHUB_STEP_SUMMARY
